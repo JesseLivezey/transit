@@ -14,6 +14,6 @@ def main():
     for lines in routeConfig:
         print lines
 
-        
+#Main call        
 if __name__ == '__main__':
     main()
