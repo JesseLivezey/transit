@@ -14,7 +14,7 @@ def main():
     for lines in routeConfig:
         print lines
 
-    stop = urllib2.urlopen('http://webservices.nextbus.com/service/publicXMLFeed?command=predictions&a=actransit&r=18&s=0305120&r=18')
+    stop = urllib2.urlopen('http://webservices.nextbus.com/service/publicXMLFeed?command=predictions&a=actransit&r=18&s=0305120&')
     for lines in stop:
         print lines
 
